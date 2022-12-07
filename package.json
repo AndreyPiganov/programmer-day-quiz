@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "Programmer_Day.js",
+  "bin": {
+    "Programmer-day": "bin/Programmer_Day.js",
+    "Quiz": "bin/Quiz.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/AndreyPiganov/frontend-project-3/issues"
   },
-  "homepage": "https://github.com/AndreyPiganov/frontend-project-3#readme"
+  "homepage": "https://github.com/AndreyPiganov/frontend-project-3#readme",
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "make": "^0.8.1",
+    "readline-sync": "^1.4.10"
+  }
 }
